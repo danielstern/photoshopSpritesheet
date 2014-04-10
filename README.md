@@ -1,0 +1,1 @@
+Run it as a photoshop script. Turns a stack of images into a handy spritesheet.
