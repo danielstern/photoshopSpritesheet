@@ -15,7 +15,7 @@
 	
 	app.preferences.rulerUnits = Units.PIXELS;
 	var newCanvasWidth = spriteX * ROWS;
-	var newCanvasHeight = spriteY * Math.floor(numLayers / ROWS);	
+	var newCanvasHeight = spriteY * Math.ceil(numLayers / ROWS);	
 
  	docRef.resizeCanvas( newCanvasWidth, newCanvasHeight, AnchorPosition.TOPLEFT );
  	 	
